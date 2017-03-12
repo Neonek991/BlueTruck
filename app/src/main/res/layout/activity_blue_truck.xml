@@ -31,6 +31,11 @@
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/AppTheme.PopupOverlay" />
 
+            <ListView
+                android:id="@+id/ScannDevicesList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
